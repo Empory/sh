@@ -51,4 +51,4 @@ def redirect_to_long_url(short_url):
     return redirect(url['long_url'])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
